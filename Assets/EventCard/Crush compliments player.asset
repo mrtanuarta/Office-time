@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d8f6e6aee85711343b2f0cce7d2d0aaf, type: 3}
-  m_Name: Coworker
+  m_Name: Crush compliments player
   m_EditorClassIdentifier: 
   eventImage: {fileID: 0}
   eventName: 
   eventDescription: 
   rightDescription: 
   rightSanity: 0
-  rightEnergy: 0
+  rightReputation: 0
   rightMoney: 0
   rightWorkdone: 0
   rightTimeSpent: 0
   leftDescription: 
   leftSanity: 0
-  leftEnergy: 0
+  leftReputation: 0
   leftMoney: 0
   leftWorkdone: 0
   leftTimeSpent: 0
