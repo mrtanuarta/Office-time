@@ -10,14 +10,14 @@ public class EventScriptable : ScriptableObject
     [Header("Swipe Right")]
     public string rightDescription;
     public float rightSanity;
-    public float rightEnergy;
+    public float rightReputation;
     public float rightMoney;
     public float rightWorkdone;
     public int rightTimeSpent;
     [Header("Swipe Left")]
     public string leftDescription;
     public float leftSanity;
-    public float leftEnergy;
+    public float leftReputation;
     public float leftMoney;
     public float leftWorkdone;
     public int leftTimeSpent;
