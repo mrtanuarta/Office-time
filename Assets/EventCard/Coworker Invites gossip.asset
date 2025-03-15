@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: Coworker Invites gossip
   m_EditorClassIdentifier: 
   eventImage: {fileID: 0}
-  eventName: 
-  eventDescription: 
-  rightDescription: 
-  rightSanity: 0
-  rightEnergy: 0
+  eventName: Coworker invites you to gossip
+  eventDescription: Kevin just bought a new Civic....
+  rightDescription: I know right! It looks fugly
+  rightSanity: -5
+  rightReputation: 5
   rightMoney: 0
   rightWorkdone: 0
-  rightTimeSpent: 0
-  leftDescription: 
+  rightTimeSpent: 1
+  leftDescription: I don't wanna hear about it
   leftSanity: 0
-  leftEnergy: 0
+  leftReputation: -10
   leftMoney: 0
-  leftWorkdone: 0
-  leftTimeSpent: 0
-  weight: 0
+  leftWorkdone: 10
+  leftTimeSpent: 1
+  weight: 3

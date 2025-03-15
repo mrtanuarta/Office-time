@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: Crush gossip boss
   m_EditorClassIdentifier: 
   eventImage: {fileID: 0}
-  eventName: 
-  eventDescription: 
-  rightDescription: 
-  rightSanity: 0
-  rightReputation: 0
-  rightMoney: 0
+  eventName: Crush gossips about boss
+  eventDescription: Crush asks player if the boss is too strict
+  rightDescription: Yes, he's been piling it on me
+  rightSanity: 10
+  rightReputation: -10
+  rightMoney: -5
   rightWorkdone: 0
-  rightTimeSpent: 0
-  leftDescription: 
-  leftSanity: 0
-  leftReputation: 0
+  rightTimeSpent: 1
+  leftDescription: No, I think he's completely fine...
+  leftSanity: -10
+  leftReputation: 15
   leftMoney: 0
   leftWorkdone: 0
-  leftTimeSpent: 0
-  weight: 0
+  leftTimeSpent: 1
+  weight: 2

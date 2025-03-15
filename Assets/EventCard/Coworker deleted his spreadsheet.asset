@@ -21,7 +21,7 @@ MonoBehaviour:
   rightMoney: 0
   rightWorkdone: 0
   rightTimeSpent: 2
-  leftDescription: Can't your do it yourself?
+  leftDescription: Can't you do it yourself?
   leftSanity: 5
   leftReputation: -10
   leftMoney: 0

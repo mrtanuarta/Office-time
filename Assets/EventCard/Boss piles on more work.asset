@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: Boss piles on more work
   m_EditorClassIdentifier: 
   eventImage: {fileID: 0}
-  eventName: 
-  eventDescription: 
-  rightDescription: 
-  rightSanity: 0
-  rightReputation: 0
-  rightMoney: 0
-  rightWorkdone: 0
-  rightTimeSpent: 0
-  leftDescription: 
-  leftSanity: 0
-  leftReputation: 0
+  eventName: Boss piles extra work
+  eventDescription: I got some things you gotta turn in before the day ends
+  rightDescription: OK boss
+  rightSanity: -5
+  rightReputation: 10
+  rightMoney: 5
+  rightWorkdone: 10
+  rightTimeSpent: 2
+  leftDescription: Get RIchard to do it!
+  leftSanity: 5
+  leftReputation: -10
   leftMoney: 0
-  leftWorkdone: 0
-  leftTimeSpent: 0
-  weight: 0
+  leftWorkdone: 10
+  leftTimeSpent: 1
+  weight: 2
