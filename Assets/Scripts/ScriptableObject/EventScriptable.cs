@@ -7,13 +7,6 @@ public class EventScriptable : ScriptableObject
     public Sprite eventImage;
     public string eventName;
     public string eventDescription;
-    [Header("Swipe Left")]
-    public string leftDescription;
-    public float leftSanity;
-    public float leftReputation;
-    public float leftMoney;
-    public float leftWorkdone;
-    public int leftTimeSpent;
     [Header("Swipe Right")]
     public string rightDescription;
     public float rightSanity;
@@ -21,6 +14,13 @@ public class EventScriptable : ScriptableObject
     public float rightMoney;
     public float rightWorkdone;
     public int rightTimeSpent;
+    [Header("Swipe Left")]
+    public string leftDescription;
+    public float leftSanity;
+    public float leftReputation;
+    public float leftMoney;
+    public float leftWorkdone;
+    public int leftTimeSpent;
     [Header("Spawn Related")]
     public float weight;
 }
