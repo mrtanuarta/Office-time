@@ -15,16 +15,16 @@ MonoBehaviour:
   eventImage: {fileID: 0}
   eventName: Do Work
   eventDescription: Do Work
-  rightDescription: Do Work
-  rightSanity: -5
-  rightEnergy: -5
-  rightMoney: 5
-  rightWorkdone: 10
+  rightDescription: Procrastinate
+  rightSanity: 10
+  rightReputation: 0
+  rightMoney: 0
+  rightWorkdone: 0
   rightTimeSpent: 1
-  leftDescription: Procrastinate
-  leftSanity: 10
-  leftEnergy: 5
-  leftMoney: 0
-  leftWorkdone: 0
+  leftDescription: Do Work
+  leftSanity: -5
+  leftReputation: 0
+  leftMoney: 5
+  leftWorkdone: 10
   leftTimeSpent: 1
   weight: 10

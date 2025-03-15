@@ -15,16 +15,16 @@ MonoBehaviour:
   eventImage: {fileID: 0}
   eventName: Office Crush ask you to do more work
   eventDescription: Are you a simp? Or not?
-  rightDescription: I'll do it
+  rightDescription: Sure
   rightSanity: 5
-  rightEnergy: -5
+  rightReputation: 10
   rightMoney: 0
   rightWorkdone: 0
   rightTimeSpent: 1
-  leftDescription: Sorry...
+  leftDescription: No
   leftSanity: -5
-  leftEnergy: 0
+  leftReputation: -10
   leftMoney: 0
-  leftWorkdone: 5
-  leftTimeSpent: 0
-  weight: 0
+  leftWorkdone: 10
+  leftTimeSpent: 1
+  weight: 3

@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: Coworker asks for cover
   m_EditorClassIdentifier: 
   eventImage: {fileID: 0}
-  eventName: 
-  eventDescription: 
-  rightDescription: 
-  rightSanity: 0
-  rightEnergy: 0
+  eventName: Coworker asks you to cover for him
+  eventDescription: Do you wanna cover for him?
+  rightDescription: Sure...
+  rightSanity: -5
+  rightReputation: 10
   rightMoney: 0
   rightWorkdone: 0
-  rightTimeSpent: 0
-  leftDescription: 
-  leftSanity: 0
-  leftEnergy: 0
+  rightTimeSpent: 1
+  leftDescription: No Man---
+  leftSanity: 5
+  leftReputation: -10
   leftMoney: 0
-  leftWorkdone: 0
-  leftTimeSpent: 0
-  weight: 0
+  leftWorkdone: 10
+  leftTimeSpent: 1
+  weight: 3

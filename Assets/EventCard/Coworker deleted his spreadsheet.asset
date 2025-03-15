@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: Coworker deleted his spreadsheet
   m_EditorClassIdentifier: 
   eventImage: {fileID: 0}
-  eventName: Coworker deleted his spreadsheet
+  eventName: Coworker deleted his spreadsheet, help?
   eventDescription: 
-  rightDescription: Lets get wasted...
-  rightSanity: 10
-  rightEnergy: -5
-  rightMoney: -5
+  rightDescription: Fine
+  rightSanity: -5
+  rightReputation: 10
+  rightMoney: 0
   rightWorkdone: 0
-  rightTimeSpent: 0
-  leftDescription: I wanna go home
-  leftSanity: 0
-  leftEnergy: 0
+  rightTimeSpent: 2
+  leftDescription: Can't your do it yourself?
+  leftSanity: 5
+  leftReputation: -10
   leftMoney: 0
-  leftWorkdone: 0
-  leftTimeSpent: 0
+  leftWorkdone: 10
+  leftTimeSpent: 1
   weight: 3

@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: Coworker has a birthday party
   m_EditorClassIdentifier: 
   eventImage: {fileID: 0}
-  eventName: 
-  eventDescription: 
-  rightDescription: 
+  eventName: Coworker has a birthday Party!
+  eventDescription: join the celebration or nah?
+  rightDescription: Join the celebrations
   rightSanity: 0
-  rightEnergy: 0
+  rightReputation: 10
   rightMoney: 0
   rightWorkdone: 0
-  rightTimeSpent: 0
-  leftDescription: 
+  rightTimeSpent: 1
+  leftDescription: I got work to do
   leftSanity: 0
-  leftEnergy: 0
+  leftReputation: -5
   leftMoney: 0
-  leftWorkdone: 0
-  leftTimeSpent: 0
-  weight: 0
+  leftWorkdone: 10
+  leftTimeSpent: 1
+  weight: 3
