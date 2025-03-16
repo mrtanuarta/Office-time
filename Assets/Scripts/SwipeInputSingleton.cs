@@ -16,16 +16,22 @@ public class InputManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A))
+        if (GameManager.Instance.GameOver == false)
         {
-            ProcessInput("Left");
-        }
-        else if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D))
-        {
-            ProcessInput("Right");
+            if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A))
+            {
+                ProcessInput("Left");
+                CardManager.Instance.pickLeft();
+                CardManager.Instance.PickNewCard();
+            }
+            else if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D))
+            {
+                ProcessInput("Right");
+                CardManager.Instance.pickRight();
+                CardManager.Instance.PickNewCard();
+            }
         }
     }
 

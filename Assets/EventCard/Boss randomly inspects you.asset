@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8f6e6aee85711343b2f0cce7d2d0aaf, type: 3}
   m_Name: Boss randomly inspects you
   m_EditorClassIdentifier: 
-  eventImage: {fileID: 0}
+  eventImage: {fileID: -1081074319, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
   eventName: Boss randomly inspects you
   eventDescription: decision is look busy or talk
   rightDescription: Appear busy
-  rightSanity: -5
+  rightSanity: -10
   rightReputation: 5
   rightMoney: 0
   rightWorkdone: 10
   rightTimeSpent: 1
   leftDescription: Talk to the boss
-  leftSanity: -5
+  leftSanity: -10
   leftReputation: 10
   leftMoney: 0
   leftWorkdone: 0

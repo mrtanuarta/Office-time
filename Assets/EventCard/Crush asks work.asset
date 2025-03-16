@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8f6e6aee85711343b2f0cce7d2d0aaf, type: 3}
   m_Name: Crush asks work
   m_EditorClassIdentifier: 
-  eventImage: {fileID: 0}
+  eventImage: {fileID: 566296313, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
   eventName: Office Crush ask you to her work
   eventDescription: Are you a simp? Or not?
   rightDescription: Sure

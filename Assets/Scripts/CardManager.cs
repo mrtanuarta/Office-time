@@ -1,4 +1,5 @@
 using UnityEngine;
+using static UnityEngine.Rendering.GPUSort;
 
 public class CardManager : MonoBehaviour
 {
@@ -17,15 +18,54 @@ public class CardManager : MonoBehaviour
         }
     }
     public EventScriptable[] cards;
-    public EventScriptable CurrCard;
+    public EventScriptable currCard;
 
 
-    void start()
+    void Start()
     {
-        //make an algorithm to pick currcard based on the list of cards based on the weight
+        PickNewCard();
     }
-    void update()
+    void Update()
     {
         //if a card is swiped left or right pick a new card
     }
+    public void PickNewCard()
+    { 
+        if (cards.Length == 0)
+        {
+            return;
+        }
+
+        float totalWeight = 0; // Removed 'public' keyword
+
+        // Calculate total weight
+        foreach (var card in cards)
+        {
+            totalWeight += card.weight;
+        }
+
+        float randomWeight = Random.Range(0, totalWeight);
+        float currentSum = 0;
+
+        // Weighted selection logic
+        foreach (var card in cards)
+        {
+            currentSum += card.weight;
+            if (randomWeight < currentSum)
+            {
+                currCard = card; // Ensure correct capitalization
+                Debug.Log("New Card Selected: " + currCard.eventName); // Check if cardName exists
+                return;
+            }
+        }
+    }
+    public void pickLeft()
+    {
+        GameManager.Instance.modifyStat(currCard.leftSanity, currCard.leftReputation, currCard.leftMoney, currCard.leftWorkdone, currCard.leftTimeSpent);
+    }
+    public void pickRight()
+    {
+        GameManager.Instance.modifyStat(currCard.rightSanity, currCard.rightReputation, currCard.rightMoney, currCard.rightWorkdone, currCard.rightTimeSpent);
+    }
+
 }

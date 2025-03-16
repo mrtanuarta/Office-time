@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8f6e6aee85711343b2f0cce7d2d0aaf, type: 3}
   m_Name: Crush asks you out
   m_EditorClassIdentifier: 
-  eventImage: {fileID: 0}
+  eventImage: {fileID: 1538126650687307106, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
   eventName: Crush asks you out on a lunch date
   eventDescription: Sanity check, will jack up sanity
   rightDescription: S..ure....
