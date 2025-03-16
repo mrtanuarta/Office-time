@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
                 "\nReputation = " + Reputation +
                 "\nMoney = " + Money +
                 "\nWorkdone = " + Workdone +
-                "\nTime = "+Time
+                "\nTime = " + Time
                 );             
     }
     public void modifyStat(float sanityAmt, float reputationAmt, float moneyAmt, float workdoneAmt, int timeAmt)
@@ -93,7 +93,7 @@ public class GameManager : MonoBehaviour
             GameOver = true;
             Money = 0;
         } 
-        if (Time == 24)
+        if (Time >= 24)
         {
             Day++;
             Time = 9;

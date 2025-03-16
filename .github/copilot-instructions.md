@@ -2,7 +2,7 @@
 - Project name: Office-time
 - Unity version: Unity 6000.0.42f1
 - Active game object:
-  - Name: Swipe Input
+  - Name: UIManager
   - Tag: Untagged
-  - Layer: Default
+  - Layer: UI
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->
