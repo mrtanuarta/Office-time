@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Coworker Invites gossip
   m_EditorClassIdentifier: 
   eventImage: {fileID: 1149168106, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
-  eventName: Coworker invites you to gossip
-  eventDescription: Kevin just bought a new Civic....
+  eventName: Kevin just bought a new Civic....
+  eventDescription: Coworker invites player to gossip
   rightDescription: I know right! It looks ugly
   rightSanity: -5
   rightReputation: 5

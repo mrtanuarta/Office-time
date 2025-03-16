@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Coworker asks for cover
   m_EditorClassIdentifier: 
   eventImage: {fileID: 1149168106, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
-  eventName: Coworker asks you to cover for him
-  eventDescription: Do you wanna cover for him?
+  eventName: Hey man, I wanna sneak out and play snooker, can you cover for me?
+  eventDescription: Coworker gives bullshit reason to skip work, do you cover for
+    him?
   rightDescription: Sure...
   rightSanity: -10
   rightReputation: 10

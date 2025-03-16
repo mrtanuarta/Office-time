@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Boss cracks a joke
   m_EditorClassIdentifier: 
   eventImage: {fileID: -1544876939, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
-  eventName: Boss cracks a joke
-  eventDescription: What would you use to slice the ocean in half? A sea-saw!
+  eventName: What would you use to slice the ocean in half? A sea-saw!
+  eventDescription: Boss cracks a bad joke
   rightDescription: Pretend to laugh
   rightSanity: -10
   rightReputation: 5

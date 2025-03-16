@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Crush reminds you to take a break
   m_EditorClassIdentifier: 
   eventImage: {fileID: 1538126650687307106, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
-  eventName: Crush reminds you to take a break
-  eventDescription: Won't it be good for you if you can chill a little?
+  eventName: Won't it be good for you if you can chill a little?
+  eventDescription: Crush asks you to take a break
   rightDescription: Can i chill with you?
   rightSanity: 20
   rightReputation: -10

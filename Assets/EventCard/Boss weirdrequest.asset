@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Boss weirdrequest
   m_EditorClassIdentifier: 
   eventImage: {fileID: -1063523911, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
-  eventName: Boss makes a weird request
-  eventDescription: Hey, can you get some coffees for me and our clients later?
+  eventName: Hey, can you get some coffees for me and our clients later?
+  eventDescription: Boss Makes a weird request
   rightDescription: On it, boss!
   rightSanity: -10
   rightReputation: 10

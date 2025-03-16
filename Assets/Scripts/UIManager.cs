@@ -19,12 +19,14 @@ public class UIManager : MonoBehaviour
         }
     }
     [Header("Text")]
-    [SerializeField] private TextMeshProUGUI TitleText;
-    [SerializeField] private TextMeshProUGUI DescriptionText;
-    [SerializeField] private TextMeshProUGUI LeftText;
-    [SerializeField] private TextMeshProUGUI RightText;
-    [SerializeField] private Image image;
-    private Texture eventImage;
+    [SerializeField] public TextMeshProUGUI TitleText;
+    [SerializeField] public TextMeshProUGUI DescriptionText;
+    [SerializeField] public TextMeshProUGUI LeftText;
+    [SerializeField] public TextMeshProUGUI RightText;
+    [SerializeField] public Image image;
+    [Header("UI Bar")]
+    [SerializeField] public TextMeshProUGUI TimeText;
+    [SerializeField] public GameObject Middle;
     void Start()
     {
         
@@ -35,8 +37,9 @@ public class UIManager : MonoBehaviour
     {
         TitleText.text = CardManager.Instance.currCard.eventName;
         DescriptionText.text = CardManager.Instance.currCard.eventDescription;
-        LeftText.text = TitleText.text = CardManager.Instance.currCard.leftDescription;
+        LeftText.text = CardManager.Instance.currCard.leftDescription;
         RightText.text = CardManager.Instance.currCard.rightDescription;
         image.sprite = CardManager.Instance.currCard.eventImage;
+        TimeText.text = "Day "+(GameManager.Instance.Day).ToString()+", "+(GameManager.Instance.Time).ToString() + ":00";
     }
 }

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Boss compliments player
   m_EditorClassIdentifier: 
   eventImage: {fileID: 1524848110, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
-  eventName: Boss compliments player
-  eventDescription: Good work kid, keep this up and ill get you a bonus!
+  eventName: Good work kid, keep this up and ill get you a bonus!
+  eventDescription: Boss compliments player
   rightDescription: Thanks boss
   rightSanity: 5
   rightReputation: 5

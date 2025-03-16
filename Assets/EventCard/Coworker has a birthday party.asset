@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eventImage: {fileID: 2142873925, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
   eventName: Coworker has a birthday Party!
-  eventDescription: join the celebration or nah?
+  eventDescription: player has a choice to celebrate or not
   rightDescription: Join the celebrations
   rightSanity: 0
   rightReputation: 10

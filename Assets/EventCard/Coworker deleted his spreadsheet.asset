@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Coworker deleted his spreadsheet
   m_EditorClassIdentifier: 
   eventImage: {fileID: -600245065, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
-  eventName: Coworker deleted his spreadsheet, help?
-  eventDescription: 
+  eventName: Oh crap! I accidentally deleted my spreadsheet! Help!
+  eventDescription: Coworker messes up and asks player to help
   rightDescription: Fine
   rightSanity: -10
   rightReputation: 10

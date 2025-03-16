@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Crush compliments player
   m_EditorClassIdentifier: 
   eventImage: {fileID: -548793721492178533, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
-  eventName: Crush gives player a compliment
-  eventDescription: You're always so nice to people!
+  eventName: You're always so nice to people!
+  eventDescription: Crush compliments player
   rightDescription: Uhm...Thanks?
   rightSanity: 10
   rightReputation: 0

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Crush sanity Check
   m_EditorClassIdentifier: 
   eventImage: {fileID: -548793721492178533, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
-  eventName: Player finds out crush has a husband
-  eventDescription: Crush brings her husband to work
+  eventName: You see your crush bringing a random guy to work
+  eventDescription: Killer card
   rightDescription: What...
   rightSanity: -60
   rightReputation: 0

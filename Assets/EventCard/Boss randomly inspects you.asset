@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Boss randomly inspects you
   m_EditorClassIdentifier: 
   eventImage: {fileID: -1081074319, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
-  eventName: Boss randomly inspects you
-  eventDescription: decision is look busy or talk
+  eventName: Boss walks over to your desk and he's looking over your shoulder
+  eventDescription: Boss randomly checks the player
   rightDescription: Appear busy
   rightSanity: -10
   rightReputation: 5

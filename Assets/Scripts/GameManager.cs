@@ -3,11 +3,12 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private float Sanity;
-    [SerializeField] private float Reputation;
-    [SerializeField] private float Money;
-    [SerializeField] private float Workdone;
-    [SerializeField] private int Time;
+    [SerializeField] public float Sanity;
+    [SerializeField] public float Reputation;
+    [SerializeField] public float Money;
+    [SerializeField] public float Workdone;
+    [SerializeField] public int Time;
+    [SerializeField] public int Day = 1;
     public bool GameOver;
     public static GameManager Instance { get; private set; }
 
@@ -91,6 +92,11 @@ public class GameManager : MonoBehaviour
             Debug.Log("Game Over");
             GameOver = true;
             Money = 0;
+        } 
+        if (Time == 24)
+        {
+            Day++;
+            Time = 9;
         }
     }
 }

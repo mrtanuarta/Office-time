@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Coworker asks to get coffee
   m_EditorClassIdentifier: 
   eventImage: {fileID: 682747807, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
-  eventName: Coworker coffee
+  eventName: Wanna get coffee?
   eventDescription: Coworker asks player to get coffee
   rightDescription: Sure
   rightSanity: 5

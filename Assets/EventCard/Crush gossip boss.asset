@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Crush gossip boss
   m_EditorClassIdentifier: 
   eventImage: {fileID: -414088600958878854, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
-  eventName: Crush gossips about boss
+  eventName: Boss has been asking us to do too much recently...
   eventDescription: Crush asks player if the boss is too strict
   rightDescription: Yes, he's been piling it on me
   rightSanity: 10

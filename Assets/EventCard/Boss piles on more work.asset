@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Boss piles on more work
   m_EditorClassIdentifier: 
   eventImage: {fileID: -1150169075, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
-  eventName: Boss piles extra work
-  eventDescription: I got some things you gotta turn in before the day ends
+  eventName: I got some things you gotta turn in before the day ends
+  eventDescription: Boss piles more work on employee
   rightDescription: OK boss
   rightSanity: -10
   rightReputation: 10

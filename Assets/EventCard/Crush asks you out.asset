@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Crush asks you out
   m_EditorClassIdentifier: 
   eventImage: {fileID: 1538126650687307106, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
-  eventName: Crush asks you out on a lunch date
+  eventName: Would you join me for lunch?
   eventDescription: Sanity check, will jack up sanity
   rightDescription: S..ure....
   rightSanity: 30

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Crush asks work
   m_EditorClassIdentifier: 
   eventImage: {fileID: 566296313, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
-  eventName: Office Crush ask you to her work
+  eventName: I need to do my report, care to help?
   eventDescription: Are you a simp? Or not?
   rightDescription: Sure
   rightSanity: 5
