@@ -68,36 +68,42 @@ public class GameManager : MonoBehaviour
             Debug.Log("Game Over");
             GameOver = true;
             Sanity = 100;
+            CardManager.Instance.currCard = CardManager.Instance.HighSanity;
         } 
         else if (Sanity <= 0)
         {
             Debug.Log("Game Over");
             GameOver = true;
             Sanity = 0;
+            CardManager.Instance.currCard = CardManager.Instance.LowSanity;
         }
         if (Reputation >= 100)
         {
             Debug.Log("Game Over");
             GameOver = true;
             Reputation = 100;
+            CardManager.Instance.currCard = CardManager.Instance.HighRep;
         }
         else if (Reputation <= 0)
         {
             Debug.Log("Game Over");
             GameOver = true;
             Reputation = 0;
+            CardManager.Instance.currCard = CardManager.Instance.LowRep;
         }
         if (Money >= 100)
         {
             Debug.Log("Game Over");
             GameOver = true;
             Money = 100;
+            CardManager.Instance.currCard = CardManager.Instance.HighMoney;
         }
         else if (Money <= 0)
         {
             Debug.Log("Game Over");
             GameOver = true;
             Money = 0;
+            CardManager.Instance.currCard = CardManager.Instance.LowMoney;
         } 
         
         if (Time > 100 || Workdone >= maxWork)

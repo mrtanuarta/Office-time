@@ -16,15 +16,15 @@ MonoBehaviour:
   eventName: Boss
   eventDescription: You wanna pitch in for my charity event? (He pockets it)
   rightDescription: Sure...
-  rightSanity: -10
+  rightSanity: 10
   rightReputation: 10
-  rightMoney: -10
+  rightMoney: -20
   rightWorkdone: 0
   rightTimeSpent: 0
   leftDescription: I can't even pay my bills
   leftSanity: 10
-  leftReputation: -10
+  leftReputation: -20
   leftMoney: 0
   leftWorkdone: 0
   leftTimeSpent: 0
-  weight: 2
+  weight: 3

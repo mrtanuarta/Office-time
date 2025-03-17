@@ -21,8 +21,13 @@ public class CardManager : MonoBehaviour
     public EventScriptable[] overtimeCards;
     public EventScriptable currCard;
     public EventScriptable limitCard;
-
-
+    [Header("EndingCards")]
+    public EventScriptable HighSanity;
+    public EventScriptable LowSanity;
+    public EventScriptable HighRep;
+    public EventScriptable LowRep;
+    public EventScriptable HighMoney;
+    public EventScriptable LowMoney;
     void Start()
     {
         PickNewCard();
