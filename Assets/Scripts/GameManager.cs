@@ -3,13 +3,16 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] public float Sanity;
-    [SerializeField] public float Reputation;
-    [SerializeField] public float Money;
-    [SerializeField] public float Workdone;
-    [SerializeField] public int Time;
-    [SerializeField] public int Day = 1;
+    public float Sanity;
+    public float Reputation;
+    public float Money;
+    public float Workdone;
+    public int Time;
+    public int Day = 1;
     public bool GameOver;
+    public string TimeStatus;
+    public float maxWork;
+    public float workDif;
     public static GameManager Instance { get; private set; }
 
     private void Awake()
@@ -31,7 +34,9 @@ public class GameManager : MonoBehaviour
         Money = 50;
         Workdone = 0;
         Time = 9;
+        maxWork = 50;
         GameOver = false;
+        TimeStatus = "Clock In";
     }
 
     // Update is called once per frame
@@ -54,6 +59,7 @@ public class GameManager : MonoBehaviour
         Time += timeAmt;
         printCurStat();
         checkGameStat();
+        TimeStatusChange();
     }
     public void checkGameStat()
     {
@@ -93,10 +99,34 @@ public class GameManager : MonoBehaviour
             GameOver = true;
             Money = 0;
         } 
-        if (Time >= 24)
+        if (Time > 24 || Workdone >= maxWork)
         {
             Day++;
             Time = 9;
+            workDif = maxWork - Workdone;
+            if (workDif > 0)
+            {
+                Sanity -= workDif;
+                Reputation -= workDif;
+                Money -= workDif;
+            }
+            maxWork += 5;
+            Workdone = 0;
+            checkGameStat();
+        }
+    }
+    public void TimeStatusChange()
+    {
+        if (Time == 9)
+        {
+            TimeStatus = "Clock In";
+        }
+        else if (Time <= 17)
+        {
+            TimeStatus = "Day";
+        } else
+        {
+            TimeStatus = "OverTime";
         }
     }
 }

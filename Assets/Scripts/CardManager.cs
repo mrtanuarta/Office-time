@@ -18,7 +18,9 @@ public class CardManager : MonoBehaviour
         }
     }
     public EventScriptable[] cards;
+    public EventScriptable[] overtimeCards;
     public EventScriptable currCard;
+    public EventScriptable limitCard;
 
 
     void Start()
@@ -35,27 +37,58 @@ public class CardManager : MonoBehaviour
         {
             return;
         }
+        if (GameManager.Instance.Time >= 24)
+        {
+            currCard = limitCard;
+            return;
+        }
+        
+
 
         float totalWeight = 0; // Removed 'public' keyword
 
         // Calculate total weight
-        foreach (var card in cards)
+        if (GameManager.Instance.Time <= 17)
         {
-            totalWeight += card.weight;
-        }
-
-        float randomWeight = Random.Range(0, totalWeight);
-        float currentSum = 0;
-
-        // Weighted selection logic
-        foreach (var card in cards)
-        {
-            currentSum += card.weight;
-            if (randomWeight < currentSum)
+            foreach (var card in cards)
             {
-                currCard = card; // Ensure correct capitalization
-                Debug.Log("New Card Selected: " + currCard.eventName); // Check if cardName exists
-                return;
+                totalWeight += card.weight;
+            }
+
+            float randomWeight = Random.Range(0, totalWeight);
+            float currentSum = 0;
+
+            // Weighted selection logic
+            foreach (var card in cards)
+            {
+                currentSum += card.weight;
+                if (randomWeight < currentSum)
+                {
+                    currCard = card; // Ensure correct capitalization
+                    Debug.Log("New Card Selected: " + currCard.eventName); // Check if cardName exists
+                    return;
+                }
+            }
+        } else
+        {
+            foreach (var card in overtimeCards)
+            {
+                totalWeight += card.weight;
+            }
+
+            float randomWeight = Random.Range(0, totalWeight);
+            float currentSum = 0;
+
+            // Weighted selection logic
+            foreach (var card in overtimeCards)
+            {
+                currentSum += card.weight;
+                if (randomWeight < currentSum)
+                {
+                    currCard = card; // Ensure correct capitalization
+                    Debug.Log("New Card Selected: " + currCard.eventName); // Check if cardName exists
+                    return;
+                }
             }
         }
     }
