@@ -20,7 +20,6 @@ public class GameManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
         }
         else
         {
@@ -69,6 +68,9 @@ public class GameManager : MonoBehaviour
             GameOver = true;
             Sanity = 100;
             CardManager.Instance.currCard = CardManager.Instance.HighSanity;
+            if (GameManager.Instance.Day > AudioManager.Instance.PersonalBest){
+                AudioManager.Instance.PersonalBest = GameManager.Instance.Day;
+            }
         } 
         else if (Sanity <= 0)
         {
@@ -76,6 +78,9 @@ public class GameManager : MonoBehaviour
             GameOver = true;
             Sanity = 0;
             CardManager.Instance.currCard = CardManager.Instance.LowSanity;
+            if (GameManager.Instance.Day > AudioManager.Instance.PersonalBest){
+                AudioManager.Instance.PersonalBest = GameManager.Instance.Day;
+            }
         }
         if (Reputation >= 100)
         {
@@ -83,6 +88,9 @@ public class GameManager : MonoBehaviour
             GameOver = true;
             Reputation = 100;
             CardManager.Instance.currCard = CardManager.Instance.HighRep;
+            if (GameManager.Instance.Day > AudioManager.Instance.PersonalBest){
+                AudioManager.Instance.PersonalBest = GameManager.Instance.Day;
+            }
         }
         else if (Reputation <= 0)
         {
@@ -90,6 +98,9 @@ public class GameManager : MonoBehaviour
             GameOver = true;
             Reputation = 0;
             CardManager.Instance.currCard = CardManager.Instance.LowRep;
+            if (GameManager.Instance.Day > AudioManager.Instance.PersonalBest){
+                AudioManager.Instance.PersonalBest = GameManager.Instance.Day;
+            }
         }
         if (Money >= 100)
         {
@@ -97,6 +108,9 @@ public class GameManager : MonoBehaviour
             GameOver = true;
             Money = 100;
             CardManager.Instance.currCard = CardManager.Instance.HighMoney;
+            if (GameManager.Instance.Day > AudioManager.Instance.PersonalBest){
+                AudioManager.Instance.PersonalBest = GameManager.Instance.Day;
+            }
         }
         else if (Money <= 0)
         {
@@ -104,6 +118,9 @@ public class GameManager : MonoBehaviour
             GameOver = true;
             Money = 0;
             CardManager.Instance.currCard = CardManager.Instance.LowMoney;
+            if (GameManager.Instance.Day > AudioManager.Instance.PersonalBest){
+                AudioManager.Instance.PersonalBest = GameManager.Instance.Day;
+            }
         } 
         
         if (Time > 100 || Workdone >= maxWork)

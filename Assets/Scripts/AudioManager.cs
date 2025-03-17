@@ -3,6 +3,7 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance { get; private set; }
+    public int PersonalBest = 0;
 
     [Header("Audio Sources")]
     public AudioSource SFXSource;      // For playing sound effects

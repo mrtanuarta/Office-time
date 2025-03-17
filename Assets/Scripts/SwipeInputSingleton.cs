@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class InputManager : MonoBehaviour
 {
+
     public static InputManager Instance { get; private set; }
 
     private void Awake()
@@ -10,7 +11,6 @@ public class InputManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
         }
         else
         {
@@ -23,6 +23,9 @@ public class InputManager : MonoBehaviour
     {
         if (GameManager.Instance.GameOver == false)
         {
+            if (Input.GetKeyDown(KeyCode.Escape)){
+                UIManager.Instance.GetComponent<ToMainMenu>().GoToMainMenu();
+            }
             if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A) && canClick)
             {
                 canClick = false;
@@ -41,6 +44,14 @@ public class InputManager : MonoBehaviour
                 StartCoroutine(ClickCooldown());
                 AudioManager.Instance.PlaySFX(AudioManager.Instance.swooshSFX);
             }
+        } else {
+            if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A) && canClick)
+            {
+                UIManager.Instance.GetComponent<ToMainMenu>().GoToMainMenu();
+            } else if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D) && canClick)
+            {
+                UIManager.Instance.GetComponent<ToMainMenu>().GoToMainMenu();
+            }
         }
     }
 
@@ -58,3 +69,4 @@ public class InputManager : MonoBehaviour
         }
     }
 }
+
