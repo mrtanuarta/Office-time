@@ -18,7 +18,7 @@ MonoBehaviour:
   rightDescription: Sure
   rightSanity: 5
   rightReputation: 5
-  rightMoney: -5
+  rightMoney: -10
   rightWorkdone: 0
   rightTimeSpent: 1
   leftDescription: Not right now

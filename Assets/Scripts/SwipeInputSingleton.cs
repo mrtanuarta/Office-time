@@ -53,6 +53,8 @@ public class InputManager : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
         canClick = true;
-        CardManager.Instance.PickNewCard();
+        if (!GameManager.Instance.GameOver){
+            CardManager.Instance.PickNewCard();
+        }
     }
 }

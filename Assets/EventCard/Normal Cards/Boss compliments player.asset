@@ -16,15 +16,15 @@ MonoBehaviour:
   eventName: Good work kid, keep this up and ill get you a bonus!
   eventDescription: Boss compliments player
   rightDescription: Thanks boss
-  rightSanity: 5
-  rightReputation: 5
-  rightMoney: 10
+  rightSanity: 15
+  rightReputation: 10
+  rightMoney: 15
   rightWorkdone: 10
   rightTimeSpent: 1
   leftDescription: Its the rest of the team too
-  leftSanity: 5
-  leftReputation: 10
-  leftMoney: 5
+  leftSanity: 10
+  leftReputation: 15
+  leftMoney: 10
   leftWorkdone: 10
   leftTimeSpent: 1
-  weight: 1
+  weight: 3

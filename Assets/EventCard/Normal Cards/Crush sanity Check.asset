@@ -16,13 +16,13 @@ MonoBehaviour:
   eventName: You see your crush bringing a random guy to work
   eventDescription: Killer card
   rightDescription: What...
-  rightSanity: -60
+  rightSanity: -40
   rightReputation: 0
   rightMoney: 0
   rightWorkdone: 0
   rightTimeSpent: 1
   leftDescription: What...
-  leftSanity: -60
+  leftSanity: -40
   leftReputation: 0
   leftMoney: 0
   leftWorkdone: 0

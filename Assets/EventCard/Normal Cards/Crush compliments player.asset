@@ -16,8 +16,8 @@ MonoBehaviour:
   eventName: You're always so nice to people!
   eventDescription: Crush compliments player
   rightDescription: Uhm...Thanks?
-  rightSanity: 10
-  rightReputation: 0
+  rightSanity: 15
+  rightReputation: 5
   rightMoney: 0
   rightWorkdone: 0
   rightTimeSpent: 1
@@ -27,4 +27,4 @@ MonoBehaviour:
   leftMoney: 0
   leftWorkdone: 0
   leftTimeSpent: 1
-  weight: 2
+  weight: 3

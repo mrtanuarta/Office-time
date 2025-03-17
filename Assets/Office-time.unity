@@ -3126,6 +3126,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9277a0338303a0f4782faf1a24a33662, type: 2}
   currCard: {fileID: 0}
   limitCard: {fileID: 11400000, guid: 586d9350a1c8cc34f9b59c2f51e2f9d8, type: 2}
+  HighSanity: {fileID: 11400000, guid: 80dd5487b231ed8469cffbc261ffe494, type: 2}
+  LowSanity: {fileID: 11400000, guid: 7d1467a4c5a02b5498c2a57be837aa41, type: 2}
+  HighRep: {fileID: 11400000, guid: 815860cdc49ebdb49ae2bf9be67971c4, type: 2}
+  LowRep: {fileID: 11400000, guid: 829e8654376f8114db2010457a6e132a, type: 2}
+  HighMoney: {fileID: 11400000, guid: bd5139c7ca47bb845aafb32ffb73ac06, type: 2}
+  LowMoney: {fileID: 11400000, guid: 557469163f422ae49bf69e672aea4d31, type: 2}
 --- !u!4 &1691355241
 Transform:
   m_ObjectHideFlags: 0
