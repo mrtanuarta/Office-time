@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8f6e6aee85711343b2f0cce7d2d0aaf, type: 3}
   m_Name: Do Work (Overtime)
   m_EditorClassIdentifier: 
-  eventImage: {fileID: 0}
+  eventImage: {fileID: 1951162083, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
   eventName: Do work (overtime)
   eventDescription: Doing work in overtime sux
   rightDescription: Do work

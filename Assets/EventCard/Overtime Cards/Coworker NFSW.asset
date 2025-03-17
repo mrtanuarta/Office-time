@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8f6e6aee85711343b2f0cce7d2d0aaf, type: 3}
   m_Name: Coworker NFSW
   m_EditorClassIdentifier: 
-  eventImage: {fileID: 0}
-  eventName: You see a coworker doing something while looking at a picture of your
-    crush
-  eventDescription: report or nah
+  eventImage: {fileID: 7552504710630475116, guid: 9583d66530636294b9df5dbb64b577fb, type: 3}
+  eventName: Sussy Coworker
+  eventDescription: You see a coworker doing something while looking at a picture
+    of your crush
   rightDescription: Report to boss
   rightSanity: 10
   rightReputation: -10

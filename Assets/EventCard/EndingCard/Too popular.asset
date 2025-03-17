@@ -12,10 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8f6e6aee85711343b2f0cce7d2d0aaf, type: 3}
   m_Name: Too popular
   m_EditorClassIdentifier: 
-  eventImage: {fileID: 0}
-  eventName: You are so popular your boss held a huge party for you, in your drunken
-    festivities you jump off the office building
-  eventDescription: when you get too popular
+  eventImage: {fileID: -7939799138200887025, guid: 9583d66530636294b9df5dbb64b577fb, type: 3}
+  eventName: You are to popular your boss held a huge party for you
+  eventDescription: in your drunken festivities you jump off the office building
   rightDescription: What
   rightSanity: 0
   rightReputation: 0

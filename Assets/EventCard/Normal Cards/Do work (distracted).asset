@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8f6e6aee85711343b2f0cce7d2d0aaf, type: 3}
   m_Name: Do work (distracted)
   m_EditorClassIdentifier: 
-  eventImage: {fileID: 0}
+  eventImage: {fileID: 1400491811, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
   eventName: You're trying to work but your coworkers are gossiping behind you
   eventDescription: Trying to work when distracted, less work done
   rightDescription: Do Work

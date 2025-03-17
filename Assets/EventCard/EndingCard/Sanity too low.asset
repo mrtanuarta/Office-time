@@ -12,10 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8f6e6aee85711343b2f0cce7d2d0aaf, type: 3}
   m_Name: Sanity too low
   m_EditorClassIdentifier: 
-  eventImage: {fileID: 0}
-  eventName: You go crazy one day after the boss makes a dumb joke, and you stab
-    him with your pencil
-  eventDescription: What happens when you go insane
+  eventImage: {fileID: -4410371197140241112, guid: 9583d66530636294b9df5dbb64b577fb, type: 3}
+  eventName: You go insane
+  eventDescription: you sucker punched the boss in the face, and you get fired
   rightDescription: What
   rightSanity: 0
   rightReputation: 0

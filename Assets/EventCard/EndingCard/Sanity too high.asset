@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8f6e6aee85711343b2f0cce7d2d0aaf, type: 3}
   m_Name: Sanity too high
   m_EditorClassIdentifier: 
-  eventImage: {fileID: 0}
+  eventImage: {fileID: -1190033071546435920, guid: 9583d66530636294b9df5dbb64b577fb, type: 3}
   eventName: You quit your job, lost your crush and found a better job elsewhere
   eventDescription: When your sanity too high
   rightDescription: What
