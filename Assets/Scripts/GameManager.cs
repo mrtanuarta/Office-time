@@ -99,7 +99,8 @@ public class GameManager : MonoBehaviour
             GameOver = true;
             Money = 0;
         } 
-        if (Time > 24 || Workdone >= maxWork)
+        
+        if (Time > 100 || Workdone >= maxWork)
         {
             Day++;
             Time = 9;
@@ -113,6 +114,10 @@ public class GameManager : MonoBehaviour
             maxWork += 5;
             Workdone = 0;
             checkGameStat();
+        }
+        else if (Time >= 24)
+        {
+            Time = 24;
         }
     }
     public void TimeStatusChange()

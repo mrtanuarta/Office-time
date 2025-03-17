@@ -20,11 +20,11 @@ MonoBehaviour:
   rightReputation: 0
   rightMoney: 0
   rightWorkdone: 0
-  rightTimeSpent: 1
+  rightTimeSpent: 100
   leftDescription: Go Home
   leftSanity: 0
   leftReputation: 0
   leftMoney: 0
   leftWorkdone: 0
-  leftTimeSpent: 1
+  leftTimeSpent: 100
   weight: 0
