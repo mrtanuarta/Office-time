@@ -10,21 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d8f6e6aee85711343b2f0cce7d2d0aaf, type: 3}
-  m_Name: Do Work (Overtime)
+  m_Name: Coworker asks you to repay your loan
   m_EditorClassIdentifier: 
-  eventImage: {fileID: 1951162083, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
-  eventName: Do work (overtime)
-  eventDescription: Doing work in overtime sux
-  rightDescription: Do work
-  rightSanity: -10
+  eventImage: {fileID: 2146450311, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
+  eventName: Coworker
+  eventDescription: Bro, where my money at?
+  rightDescription: Fine, take it
+  rightSanity: 0
   rightReputation: 0
-  rightMoney: 5
-  rightWorkdone: 10
-  rightTimeSpent: 1
-  leftDescription: Procrastinate
-  leftSanity: -5
-  leftReputation: 0
+  rightMoney: -20
+  rightWorkdone: 0
+  rightTimeSpent: 0
+  leftDescription: 1 more day, please
+  leftSanity: 0
+  leftReputation: -20
   leftMoney: 0
   leftWorkdone: 0
-  leftTimeSpent: 1
-  weight: 10
+  leftTimeSpent: 0
+  weight: 1

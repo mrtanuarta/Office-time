@@ -10,21 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d8f6e6aee85711343b2f0cce7d2d0aaf, type: 3}
-  m_Name: Do Work (Overtime)
+  m_Name: Boss piles on more work
   m_EditorClassIdentifier: 
-  eventImage: {fileID: 1951162083, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
-  eventName: Do work (overtime)
-  eventDescription: Doing work in overtime sux
-  rightDescription: Do work
+  eventImage: {fileID: -1150169075, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
+  eventName: Boss
+  eventDescription: I got some things you gotta turn in before the day ends
+  rightDescription: OK boss
   rightSanity: -10
-  rightReputation: 0
+  rightReputation: 10
   rightMoney: 5
   rightWorkdone: 10
-  rightTimeSpent: 1
-  leftDescription: Procrastinate
-  leftSanity: -5
-  leftReputation: 0
+  rightTimeSpent: 2
+  leftDescription: Get RIchard to do it!
+  leftSanity: 10
+  leftReputation: -10
   leftMoney: 0
-  leftWorkdone: 0
+  leftWorkdone: 10
   leftTimeSpent: 1
-  weight: 10
+  weight: 2

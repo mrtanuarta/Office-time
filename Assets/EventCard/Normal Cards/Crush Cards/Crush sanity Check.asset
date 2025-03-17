@@ -10,21 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d8f6e6aee85711343b2f0cce7d2d0aaf, type: 3}
-  m_Name: Do Work (Overtime)
+  m_Name: Crush sanity Check
   m_EditorClassIdentifier: 
-  eventImage: {fileID: 1951162083, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
-  eventName: Do work (overtime)
-  eventDescription: Doing work in overtime sux
-  rightDescription: Do work
-  rightSanity: -10
+  eventImage: {fileID: -548793721492178533, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
+  eventName: ...Crush?
+  eventDescription: You see your crush bringing a random guy to work
+  rightDescription: What...
+  rightSanity: -30
   rightReputation: 0
-  rightMoney: 5
-  rightWorkdone: 10
+  rightMoney: 0
+  rightWorkdone: 0
   rightTimeSpent: 1
-  leftDescription: Procrastinate
-  leftSanity: -5
+  leftDescription: What...
+  leftSanity: -30
   leftReputation: 0
   leftMoney: 0
   leftWorkdone: 0
   leftTimeSpent: 1
-  weight: 10
+  weight: 0.2

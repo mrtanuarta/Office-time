@@ -10,21 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d8f6e6aee85711343b2f0cce7d2d0aaf, type: 3}
-  m_Name: Do Work (Overtime)
+  m_Name: Boss cracks a joke
   m_EditorClassIdentifier: 
-  eventImage: {fileID: 1951162083, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
-  eventName: Do work (overtime)
-  eventDescription: Doing work in overtime sux
-  rightDescription: Do work
+  eventImage: {fileID: -1544876939, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
+  eventName: Boss
+  eventDescription: What would you use to slice the ocean in half? A sea-saw!
+  rightDescription: Pretend to laugh
   rightSanity: -10
-  rightReputation: 0
-  rightMoney: 5
-  rightWorkdone: 10
+  rightReputation: 5
+  rightMoney: 0
+  rightWorkdone: 0
   rightTimeSpent: 1
-  leftDescription: Procrastinate
-  leftSanity: -5
-  leftReputation: 0
+  leftDescription: Pokerface
+  leftSanity: 5
+  leftReputation: -5
   leftMoney: 0
   leftWorkdone: 0
   leftTimeSpent: 1
-  weight: 10
+  weight: 3

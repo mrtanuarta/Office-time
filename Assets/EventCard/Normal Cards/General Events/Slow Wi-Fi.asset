@@ -10,21 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d8f6e6aee85711343b2f0cce7d2d0aaf, type: 3}
-  m_Name: Do Work (Overtime)
+  m_Name: Slow Wi-Fi
   m_EditorClassIdentifier: 
-  eventImage: {fileID: 1951162083, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
-  eventName: Do work (overtime)
-  eventDescription: Doing work in overtime sux
-  rightDescription: Do work
+  eventImage: {fileID: 1400491811, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
+  eventName: Slow Wi-Fi
+  eventDescription: Why is it so slow :<
+  rightDescription: Work through it
   rightSanity: -10
   rightReputation: 0
   rightMoney: 5
-  rightWorkdone: 10
+  rightWorkdone: 5
   rightTimeSpent: 1
-  leftDescription: Procrastinate
-  leftSanity: -5
+  leftDescription: Chill for a bit
+  leftSanity: 5
   leftReputation: 0
   leftMoney: 0
   leftWorkdone: 0
   leftTimeSpent: 1
-  weight: 10
+  weight: 2

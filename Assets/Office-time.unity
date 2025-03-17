@@ -2914,6 +2914,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d9bd6cd4e7741374bb8e21ef3d594d9a, type: 2}
   - {fileID: 11400000, guid: 54513dea5e43e114d8699fc909c014b1, type: 2}
   - {fileID: 11400000, guid: bbb3a557f520ec14c938083d48efed49, type: 2}
+  - {fileID: 11400000, guid: e94ab61588079ba4191a24024a16660f, type: 2}
+  - {fileID: 11400000, guid: 2947714495b955f409fef5f49c995bd4, type: 2}
+  - {fileID: 11400000, guid: 3ddf12c3cb769bb4692a798812a0e39c, type: 2}
+  - {fileID: 11400000, guid: c5508a858962e8c4388907a5b270f5b7, type: 2}
+  - {fileID: 11400000, guid: 2d4f582bd7ea1d74da2da648a16b9b1b, type: 2}
   overtimeCards:
   - {fileID: 11400000, guid: 5402e5b66d2717a44893a633d54bb00b, type: 2}
   - {fileID: 11400000, guid: 6c91af36257f9d644bc01e117ba964a1, type: 2}
@@ -2932,6 +2937,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 6e8732fad9cd08e47bfeb6da459186b8, type: 2}
   - {fileID: 11400000, guid: 9f66a3f3cf5d03741b49f1bbfce9d340, type: 2}
   - {fileID: 11400000, guid: 9277a0338303a0f4782faf1a24a33662, type: 2}
+  - {fileID: 11400000, guid: 2947714495b955f409fef5f49c995bd4, type: 2}
+  - {fileID: 11400000, guid: 3ddf12c3cb769bb4692a798812a0e39c, type: 2}
+  - {fileID: 11400000, guid: c5508a858962e8c4388907a5b270f5b7, type: 2}
+  - {fileID: 11400000, guid: 2d4f582bd7ea1d74da2da648a16b9b1b, type: 2}
+  - {fileID: 11400000, guid: e94ab61588079ba4191a24024a16660f, type: 2}
   currCard: {fileID: 0}
   limitCard: {fileID: 11400000, guid: 586d9350a1c8cc34f9b59c2f51e2f9d8, type: 2}
   HighSanity: {fileID: 11400000, guid: 80dd5487b231ed8469cffbc261ffe494, type: 2}

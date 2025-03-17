@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d8f6e6aee85711343b2f0cce7d2d0aaf, type: 3}
-  m_Name: Boss asks for drinks after work
+  m_Name: Crush wants a new bag
   m_EditorClassIdentifier: 
-  eventImage: {fileID: -1721418318, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
-  eventName: You wanna head to the bar after this?
-  eventDescription: Boss asks player out on a drink after work
-  rightDescription: Sure...
-  rightSanity: -15
-  rightReputation: 20
-  rightMoney: -10
+  eventImage: {fileID: -2076772105701814984, guid: 9583d66530636294b9df5dbb64b577fb, type: 3}
+  eventName: Crush
+  eventDescription: Oh my god, the new Bucci bag is so nice...
+  rightDescription: Buy it for her
+  rightSanity: 20
+  rightReputation: 10
+  rightMoney: -30
   rightWorkdone: 0
   rightTimeSpent: 0
-  leftDescription: I got things to do at home...
-  leftSanity: 5
-  leftReputation: -5
+  leftDescription: Sorry!
+  leftSanity: -20
+  leftReputation: -10
   leftMoney: 0
   leftWorkdone: 0
   leftTimeSpent: 0
