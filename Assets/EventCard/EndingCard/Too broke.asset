@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8f6e6aee85711343b2f0cce7d2d0aaf, type: 3}
   m_Name: Too broke
   m_EditorClassIdentifier: 
-  eventImage: {fileID: 0}
-  eventName: You're so poor you had to go homeless, your boss start to notice you
-    stink cause you don't have a shower
-  eventDescription: 
+  eventImage: {fileID: 1104743767297258134, guid: 9583d66530636294b9df5dbb64b577fb, type: 3}
+  eventName: 'You''re so poor '
+  eventDescription: you had to go homeless, your boss start to notice you stink cause
+    you don't have a shower
   rightDescription: What
   rightSanity: 0
   rightReputation: 0

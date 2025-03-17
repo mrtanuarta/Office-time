@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8f6e6aee85711343b2f0cce7d2d0aaf, type: 3}
   m_Name: Crush wants a new bag
   m_EditorClassIdentifier: 
-  eventImage: {fileID: 0}
+  eventImage: {fileID: -2076772105701814984, guid: 9583d66530636294b9df5dbb64b577fb, type: 3}
   eventName: Oh my god, the new Bucci bag is so nice...
   eventDescription: Crush wants a new bag, are you a simp?
   rightDescription: Buy it for her
   rightSanity: 20
-  rightReputation: 0
-  rightMoney: -20
+  rightReputation: 10
+  rightMoney: -30
   rightWorkdone: 0
   rightTimeSpent: 0
   leftDescription: Oh hell nah

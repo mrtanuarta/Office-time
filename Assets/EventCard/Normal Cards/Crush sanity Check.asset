@@ -27,4 +27,4 @@ MonoBehaviour:
   leftMoney: 0
   leftWorkdone: 0
   leftTimeSpent: 1
-  weight: 0.5
+  weight: 0.2

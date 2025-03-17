@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8f6e6aee85711343b2f0cce7d2d0aaf, type: 3}
   m_Name: Too hated
   m_EditorClassIdentifier: 
-  eventImage: {fileID: 0}
-  eventName: Everyone hates you so much in the office, you deal with it, but when
-    you heard your crush say "eww" when you are mentioned, you quit and drink
-  eventDescription: 
+  eventImage: {fileID: 1848306512, guid: 9583d66530636294b9df5dbb64b577fb, type: 3}
+  eventName: Everyone hates you
+  eventDescription: Everyone hates you so much in the office, you deal with it, but
+    when you heard your crush say "eww" when you are mentioned, you quit and drink
   rightDescription: What
   rightSanity: 0
   rightReputation: 0

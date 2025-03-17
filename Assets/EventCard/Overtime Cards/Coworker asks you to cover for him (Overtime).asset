@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8f6e6aee85711343b2f0cce7d2d0aaf, type: 3}
   m_Name: Coworker asks you to cover for him (Overtime)
   m_EditorClassIdentifier: 
-  eventImage: {fileID: 0}
+  eventImage: {fileID: 1400491811, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
   eventName: Bro I got a meetup with my boys, can you cover for me?
   eventDescription: A$$ coworkers
   rightDescription: Fine...
@@ -27,4 +27,4 @@ MonoBehaviour:
   leftMoney: 0
   leftWorkdone: 10
   leftTimeSpent: 1
-  weight: 0
+  weight: 3
