@@ -10,21 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d8f6e6aee85711343b2f0cce7d2d0aaf, type: 3}
-  m_Name: Boss asks for drinks after work
+  m_Name: Coworker asks for cover
   m_EditorClassIdentifier: 
-  eventImage: {fileID: -1721418318, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
-  eventName: You wanna head to the bar after this?
-  eventDescription: Boss asks player out on a drink after work
+  eventImage: {fileID: 1149168106, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
+  eventName: Coworker
+  eventDescription: Hey man, I wanna sneak out and play snooker, can you cover for
+    me?
   rightDescription: Sure...
-  rightSanity: -15
-  rightReputation: 20
-  rightMoney: -10
+  rightSanity: -10
+  rightReputation: 10
+  rightMoney: 0
   rightWorkdone: 0
-  rightTimeSpent: 0
-  leftDescription: I got things to do at home...
+  rightTimeSpent: 1
+  leftDescription: No Man---
   leftSanity: 5
-  leftReputation: -5
-  leftMoney: 0
-  leftWorkdone: 0
-  leftTimeSpent: 0
+  leftReputation: -10
+  leftMoney: 5
+  leftWorkdone: 10
+  leftTimeSpent: 1
   weight: 3

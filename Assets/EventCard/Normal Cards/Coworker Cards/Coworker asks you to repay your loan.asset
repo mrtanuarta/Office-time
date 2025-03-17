@@ -10,21 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d8f6e6aee85711343b2f0cce7d2d0aaf, type: 3}
-  m_Name: Boss asks for drinks after work
+  m_Name: Coworker asks you to repay your loan
   m_EditorClassIdentifier: 
-  eventImage: {fileID: -1721418318, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
-  eventName: You wanna head to the bar after this?
-  eventDescription: Boss asks player out on a drink after work
-  rightDescription: Sure...
-  rightSanity: -15
-  rightReputation: 20
-  rightMoney: -10
+  eventImage: {fileID: 2146450311, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
+  eventName: Coworker
+  eventDescription: Bro, where my money at?
+  rightDescription: Fine, take it
+  rightSanity: 0
+  rightReputation: 0
+  rightMoney: -20
   rightWorkdone: 0
   rightTimeSpent: 0
-  leftDescription: I got things to do at home...
-  leftSanity: 5
-  leftReputation: -5
+  leftDescription: 1 more day, please
+  leftSanity: 0
+  leftReputation: -20
   leftMoney: 0
   leftWorkdone: 0
   leftTimeSpent: 0
-  weight: 3
+  weight: 1

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8f6e6aee85711343b2f0cce7d2d0aaf, type: 3}
+  m_Name: Coworker Invites gossip
+  m_EditorClassIdentifier: 
+  eventImage: {fileID: 1149168106, guid: 2a18f2e4dc5634441b5654e36fd58bb4, type: 3}
+  eventName: Coworker
+  eventDescription: Oh my GOOOoosh, Kevin just bought a new Civic!
+  rightDescription: I know right! It looks ugly!
+  rightSanity: -5
+  rightReputation: 5
+  rightMoney: 0
+  rightWorkdone: 0
+  rightTimeSpent: 1
+  leftDescription: I don't wanna hear about it...
+  leftSanity: 0
+  leftReputation: -10
+  leftMoney: 5
+  leftWorkdone: 10
+  leftTimeSpent: 1
+  weight: 3
