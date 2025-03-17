@@ -22,7 +22,7 @@ MonoBehaviour:
   rightWorkdone: 0
   rightTimeSpent: 0
   leftDescription: Take it
-  leftSanity: -5
+  leftSanity: 5
   leftReputation: -10
   leftMoney: 10
   leftWorkdone: 0
