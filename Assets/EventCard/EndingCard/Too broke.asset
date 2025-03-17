@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8f6e6aee85711343b2f0cce7d2d0aaf, type: 3}
+  m_Name: Too broke
+  m_EditorClassIdentifier: 
+  eventImage: {fileID: 0}
+  eventName: You're so poor you had to go homeless, your boss start to notice you
+    stink cause you don't have a shower
+  eventDescription: 
+  rightDescription: What
+  rightSanity: 0
+  rightReputation: 0
+  rightMoney: 0
+  rightWorkdone: 0
+  rightTimeSpent: 0
+  leftDescription: What
+  leftSanity: 0
+  leftReputation: 0
+  leftMoney: 0
+  leftWorkdone: 0
+  leftTimeSpent: 0
+  weight: 10
