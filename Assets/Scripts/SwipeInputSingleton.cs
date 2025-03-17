@@ -30,8 +30,7 @@ public class InputManager : MonoBehaviour
                 UIManager.Instance.Middle.GetComponent<Animator>().SetTrigger("Left");
                 CardManager.Instance.pickLeft();
                 StartCoroutine(ClickCooldown());
-                
-                
+                AudioManager.Instance.PlaySFX(AudioManager.Instance.swooshSFX);
             }
             else if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D) && canClick)
             {
@@ -40,8 +39,7 @@ public class InputManager : MonoBehaviour
                 UIManager.Instance.Middle.GetComponent<Animator>().SetTrigger("Right");
                 CardManager.Instance.pickRight();
                 StartCoroutine(ClickCooldown());
-                
-                
+                AudioManager.Instance.PlaySFX(AudioManager.Instance.swooshSFX);
             }
         }
     }
